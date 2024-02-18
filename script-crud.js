@@ -111,6 +111,7 @@ document.addEventListener('FocoFinalizado', () => {
         liTarefaSelecionada.querySelector('button').setAttribute('disabled','disabled')
         tarefaSelecionada.completa = true
         atualizarTarefas()
+        paragrafoDescricaoTarefa.textContent = ''
     }
 })
 
